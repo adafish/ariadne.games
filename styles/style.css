@@ -1,0 +1,176 @@
+/* Sixtyfour-regular */
+@font-face { 
+  font-family: "Sixtyfour";
+  font-style: normal;
+  font-weight: 400;
+  src: 
+    url(/fonts/Sixtyfour[BLED\,SCAN].woff2) format("woff2"),
+    url(/fonts/Sixtyfour-Regular.ttf) format("truetype");
+  font-display: swap;
+}
+
+/* anonymous-pro-regular - latin */
+@font-face {
+  font-family: "Anonymous Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: 
+    url(/fonts/anonymous-pro-v21-latin-regular.woff2) format("woff2"), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url(/fonts/AnonymousPro-Regular.ttf) format("truetype"); 
+  font-display: swap;
+}
+
+
+body {
+  background-color: #2B2136;
+  color: #F3F6F5;
+  font-family: "Anonymous Pro", "Consolas", "Andale Mono", "Lucida Console", monospace;
+}
+
+a {
+  color: #C890A7;
+  text-decoration: none;
+  transition: ease-in-out 0.2s;
+}
+
+a:hover {
+  color: #B23C53;
+}
+
+.home-link a {
+  color: #F3F6F5;
+  text-decoration: none;
+  text-shadow: 0.06em 0 0.5px #d02670;
+}
+
+.home-link a:hover {
+  color: #d02670;
+  text-shadow: -0.06em 0 0.5px #F3F6F5;
+}
+
+ul {
+  padding: 0;
+  margin: 0 auto;
+}
+
+.menu {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  display: inline;
+}
+
+.logo-image {
+  padding: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.logo-image img {
+  width: 54%;
+}
+
+.portrait-image {
+  padding: 1.54rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.portrait-image img {
+  width: 20%;
+}
+
+h1, h3 {
+  color: #C890A7;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Sixtyfour', display;
+}
+
+h2 {
+  color: #fff;
+  text-shadow: 0.06em 0 0.5px #d02670;
+  text-align: center;
+}
+
+h4 {
+  color: #a703ff;
+}
+
+.long-text {
+  text-align: center;
+}
+
+.boxed-element:before {
+  content: "[";
+  font-weight: bold;
+  text-shadow: none;
+}
+
+.boxed-element:after {
+  content: "]";
+  font-weight: bold;
+  text-shadow: none;
+}
+
+.boxed-element-active:before {
+  content: "[ ";
+  font-weight: bold;
+  text-shadow: none;
+}
+
+.boxed-element-active:after {
+  content: " ]";
+  font-weight: bold;
+  text-shadow: none;
+}
+
+.boxed-element:hover:before {
+  content: "[ ";
+  font-weight: bold;
+  text-shadow: none;
+}
+
+.boxed-element:hover:after {
+  content: " ]";
+  font-weight: bold;
+  text-shadow: none;
+}
+
+.text-wrapper {
+  max-width: 70%;
+  margin: 0 auto; 
+}
+
+summary {
+  cursor: pointer;
+}
+
+details summary::marker,
+:is(::-webkit-details-marker) {
+  content: "+ ";
+  color: #6fdc8c;
+  font-weight: bold;
+}
+
+details:hover summary::marker,
+:is(::-webkit-details-marker) {
+  color: #d02670;
+}
+
+details[open] summary::marker {
+  content: "- ";
+}
+
+#copytext {
+  text-decoration:none;
+  text-shadow: none;
+  color:rgb(186, 188, 187);
+}
