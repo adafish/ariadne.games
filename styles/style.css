@@ -4,8 +4,8 @@
   font-style: normal;
   font-weight: 400;
   src: 
-    url(/fonts/Sixtyfour[BLED\,SCAN].woff2) format("woff2"),
-    url(/fonts/Sixtyfour-Regular.ttf) format("truetype");
+    url(/ariadne.games/fonts/Sixtyfour[BLED\,SCAN].woff2) format("woff2"),
+    url(/ariadne.games/fonts/Sixtyfour-Regular.ttf) format("truetype");
   font-display: swap;
 }
 
@@ -15,8 +15,8 @@
   font-style: normal;
   font-weight: 400;
   src: 
-    url(/fonts/anonymous-pro-v21-latin-regular.woff2) format("woff2"), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-    url(/fonts/AnonymousPro-Regular.ttf) format("truetype"); 
+    url(/ariadne.games/fonts/anonymous-pro-v21-latin-regular.woff2) format("woff2"), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url(/ariadne.games/fonts/AnonymousPro-Regular.ttf) format("truetype"); 
   font-display: swap;
 }
 
