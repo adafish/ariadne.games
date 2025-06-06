@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+.games {
+  max-width: 80%;
+  margin: 0 auto; 
+}
+
+.games h4 {
+  color: #fff0f7;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: #B23C53;
+  padding: 10px;
+  color: #fff0f7;
+}
+
+.content img {
+  width:100%;
+}
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
