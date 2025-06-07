@@ -1,0 +1,11 @@
+span.puzzle.hidden {
+	display: none;
+}
+
+span.puzzle b {
+	font-weight: normal;
+}
+
+span.puzzle b:nth-child(2) {
+	display: none;
+}
