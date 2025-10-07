@@ -48,6 +48,10 @@ a:hover {
   text-shadow: -0.06em 0 0.5px #F3F6F5;
 }
 
+.portfolio-link {
+  font-weight: bolder;
+}
+
 ul {
   padding: 0;
   margin: 0 auto;
@@ -71,7 +75,7 @@ ul {
 }
 
 .logo-image img {
-  width: 54%;
+  width: 50%;
 }
 
 .portrait-image {
@@ -85,16 +89,13 @@ ul {
   width: 20%;
 }
 
-h1, h3 {
-  color: #C890A7;
-}
-
 h1 {
+  color: #C890A7;
   text-align: center;
   font-family: 'Sixtyfour', display;
 }
 
-h2 {
+h2, h3 {
   color: #fff;
   text-shadow: 0.06em 0 0.5px #d02670;
   text-align: center;
@@ -145,8 +146,9 @@ h4 {
 }
 
 .text-wrapper {
-  max-width: 70%;
+  max-width: 50%;
   margin: 0 auto; 
+  text-align: center;
 }
 
 summary {
@@ -156,7 +158,7 @@ summary {
 details summary::marker,
 :is(::-webkit-details-marker) {
   content: "+ ";
-  color: #6fdc8c;
+  color: #C890A7;
   font-weight: bold;
 }
 
