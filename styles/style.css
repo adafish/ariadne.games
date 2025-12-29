@@ -48,6 +48,17 @@ a:hover {
   text-shadow: -0.06em 0 0.5px #F3F6F5;
 }
 
+#copytext a {
+  text-decoration:none;
+  text-shadow: none;
+  color:rgb(186, 188, 187);
+}
+
+#copytext a:hover {
+  color: #C890A7;
+  font-weight: bold;
+}
+
 .portfolio-link {
   font-weight: bolder;
 }
@@ -176,3 +187,4 @@ details[open] summary::marker {
   text-shadow: none;
   color:rgb(186, 188, 187);
 }
+
